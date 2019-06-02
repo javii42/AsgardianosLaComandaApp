@@ -1,5 +1,5 @@
-import {Camara} from './camara';
-import{CodigoQR} from './codigo-qr';
+import { Camara } from './camara';
+import { CodigoQR } from './codigo-qr';
 
 
 export class Persona {
