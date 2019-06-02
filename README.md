@@ -6,7 +6,7 @@ Aplicacion en IONIC para restaurante
 | ------ | ------ | ------ |
 |Alta producto|Alta Empleado|AltaClientes|
 |QR mesa|QR Ingreso|QR Propina|
-|Encuesta empleado|Encuesta Cliente|QR supervisor|
+|Encuesta empleado|Encuesta Cliente|Encuesta supervisor|
 |Tomar pedido|Pedir producto|Reservas|
 |push notification pedido|push notification mesa|push reserva/delivery
 |encargado back end|mapas|pedidos por GPS|
