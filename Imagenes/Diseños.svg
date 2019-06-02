@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.021875"
-     inkscape:cx="-1598.1008"
-     inkscape:cy="97.780542"
+     inkscape:cx="3252.4332"
+     inkscape:cy="4154.2782"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -36,7 +36,9 @@
      inkscape:window-height="705"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -122,7 +124,10 @@
     </g>
     <g
        id="g1009-3"
-       transform="matrix(-0.56250001,0,0,0.56250001,-1328.7342,-883.73486)">
+       transform="matrix(-0.56250001,0,0,0.56250001,-1328.7342,-883.73486)"
+       inkscape:export-filename="E:\javii\Documents\Facultad\PPS\AsgardianosLaComandaApp\LaComanda\src\assets\rightHorn.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <g
          id="g996-0">
         <path
@@ -175,13 +180,77 @@
         </g>
       </g>
     </g>
-    <g
-       id="g1179"
-       transform="matrix(4,0,0,4,545.82609,-1483.967)"
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:101.59999847px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833328"
+       x="975.58936"
+       y="-379.45932"
+       id="text1085"><tspan
+         sodipodi:role="line"
+         id="tspan1083"
+         x="975.58936"
+         y="-379.45932"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffffff;stroke-width:1.05833328">ASGRADIANOS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:101.59999847px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833328"
+       x="830.80438"
+       y="-519.76733"
+       id="text1085-5"><tspan
+         sodipodi:role="line"
+         id="tspan1083-1"
+         x="830.80438"
+         y="-519.76733"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffffff;stroke-width:1.05833328">lA COMANDA DE LOS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:101.59999847px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833328"
+       x="1158.0436"
+       y="372.32397"
+       id="text1085-4"
        inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4">
+       inkscape:export-ydpi="25.4"><tspan
+         sodipodi:role="line"
+         id="tspan1083-2"
+         x="1158.0436"
+         y="372.32397"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90.31111145px;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffffff;stroke-width:1.05833328">FIGUEIRAS - HENSELER - MOLLAR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:101.59999847px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833328"
+       x="1607.1383"
+       y="474.39297"
+       id="text1085-9"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4"><tspan
+         sodipodi:role="line"
+         id="tspan1083-9"
+         x="1607.1383"
+         y="474.39297"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffffff;stroke-width:1.05833328">4B - 2019</tspan></text>
+    <g
+       id="g1384"
+       inkscape:export-filename="E:\javii\Documents\Facultad\PPS\AsgardianosLaComandaApp\LaComanda\resources\icon.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         ry="2.5225244"
+         y="-327.41669"
+         x="3841.7498"
+         height="338.66666"
+         width="338.66666"
+         id="rect1309"
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.24160384;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         ry="2.270272"
+         y="-310.48337"
+         x="3858.6831"
+         height="304.79999"
+         width="304.79999"
+         id="rect1309-7"
+         style="opacity:1;vector-effect:none;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.21744345;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
       <g
-         transform="translate(62.639129,19.00244)"
+         transform="matrix(0.94282458,0,0,0.94282458,3887.6026,-258.76783)"
          id="g1148">
         <g
            id="g906"
@@ -265,53 +334,18 @@
         </g>
       </g>
       <text
-         id="text1085"
-         y="276.12692"
-         x="107.44081"
-         style="font-style:normal;font-weight:normal;font-size:25.39999962px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         id="text1085-9-8"
+         y="-16.161951"
+         x="4029.6553"
+         style="font-style:normal;font-weight:normal;font-size:59.99378967px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.62493515"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffffff;stroke-width:0.26458332"
-           y="276.12692"
-           x="107.44081"
-           id="tspan1083"
-           sodipodi:role="line">ASGRADIANOS</tspan></text>
-      <text
-         id="text1085-5"
-         y="241.04991"
-         x="71.244568"
-         style="font-style:normal;font-weight:normal;font-size:25.39999962px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffffff;stroke-width:0.26458332"
-           y="241.04991"
-           x="71.244568"
-           id="tspan1083-1"
-           sodipodi:role="line">lA COMANDA DE LOS</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffffff;stroke-width:0.62493515"
+           y="-16.161951"
+           x="4029.6553"
+           id="tspan1083-9-0"
+           sodipodi:role="line">FHM</tspan></text>
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:101.59999847px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833328"
-       x="1158.0436"
-       y="372.32397"
-       id="text1085-4"
-       inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4"><tspan
-         sodipodi:role="line"
-         id="tspan1083-2"
-         x="1158.0436"
-         y="372.32397"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:90.31111145px;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffffff;stroke-width:1.05833328">FIGUEIRAS - HENSELER - MOLLAR</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:101.59999847px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05833328"
-       x="1607.1383"
-       y="474.39297"
-       id="text1085-9"
-       inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4"><tspan
-         sodipodi:role="line"
-         id="tspan1083-9"
-         x="1607.1383"
-         y="474.39297"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Algerian;-inkscape-font-specification:Algerian;fill:#ffffff;stroke-width:1.05833328">4B - 2019</tspan></text>
   </g>
 </svg>

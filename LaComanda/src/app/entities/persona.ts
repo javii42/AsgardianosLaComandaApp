@@ -1,5 +1,7 @@
 import {Camara} from './camara';
 import{CodigoQR} from './codigo-qr';
+import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
+import { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner/ngx';
 
 
 export class Persona {
@@ -8,7 +10,9 @@ export class Persona {
 	private dni:number;
 	private foto:string;
 
-	constructor(nombre,apellido,dni,foto){
+	constructor(nombre,apellido,dni,foto,
+		private camera:Camera,
+		private qrScanner:QRScanner){
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.dni = dni;
@@ -32,13 +36,15 @@ export class Persona {
 	}
 
 	public tomarFoto(){
-		let camara:Camara = new Camara();
+		let camara:Camara = Object.create(this.camera);
 		this.foto = camara.tomarFoto();
+
 	}
 
-	public obtenerDatosDniQr(){
-		let codQr:CodigoQR = new CodigoQR();
+	public obtenerDatosDniQr():string{
+		let codQr:CodigoQR = new CodigoQR(this.qrScanner);
 		var datos:string = codQr.leerCodigo();
+		return datos;
 
 	}
 

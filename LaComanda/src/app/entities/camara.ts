@@ -1,6 +1,8 @@
 import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
+import { Injector } from '@angular/core';
 
-	
+
+
 const options: CameraOptions = {
 	quality: 100,
 	destinationType: this.camera.DestinationType.FILE_URI,
@@ -8,11 +10,10 @@ const options: CameraOptions = {
 	mediaType: this.camera.MediaType.PICTURE
 }
 
-export class Camara {
+export class Camara{
 	private foto:string;
-	private camera:Camera;
-
-	constructor() {
+	constructor(private camera:Camera) {
+		
 	 }
 
 	public tomarFoto():string{

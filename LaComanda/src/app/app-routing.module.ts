@@ -14,8 +14,7 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  },
-  { path: 'splash', loadChildren: './splash/splash.module#SplashPageModule' }
+  }
 ];
 
 @NgModule({

@@ -1,9 +1,8 @@
 import { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner/ngx';
 
 export class CodigoQR {
-	private qrScanner:QRScanner;
 	private codigoEscaneado:string;
-	constructor(){}
+	constructor(private qrScanner:QRScanner){}
 
 	public leerCodigo():string{
 

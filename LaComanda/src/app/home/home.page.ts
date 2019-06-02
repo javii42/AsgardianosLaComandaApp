@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-
+import{Persona} from '../entities/persona';
+import { Camera } from '@ionic-native/camera/ngx';
+import { QRScanner} from '@ionic-native/qr-scanner/ngx';
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -7,6 +9,13 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private camera:Camera,
+    private qrScanner:QRScanner) {}
+
+  public leerDni(){
+    let p:Persona = new Persona("","","","",this.camera,this.qrScanner);
+
+    alert(p.obtenerDatosDniQr());
+  }
 
 }

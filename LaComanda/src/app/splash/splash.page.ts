@@ -1,15 +1,32 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { NavController, NavParams } from '@ionic/angular';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { ViewController } from '@ionic/core';
 
 @Component({
-  selector: 'app-splash',
-  templateUrl: './splash.page.html',
-  styleUrls: ['./splash.page.scss'],
+  selector: 'page-splash',
+  templateUrl: 'splash.page.html',
 })
-export class SplashPage implements OnInit {
+export class SplashPage {
 
-  constructor() { }
+  constructor(public navCtrl: NavController,
+    public navParams: NavParams,
+    public viewCtrl: ViewController,
+    public splashScreen: SplashScreen,) {
 
-  ngOnInit() {
   }
 
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad SplashPage');
+  }
+  
+  ionViewDidEnter() {
+ 
+    this.splashScreen.hide();
+
+    setTimeout(() => {
+    //  this.nativeAudio.play('intro').catch(() => { });
+      this.viewCtrl._destroy;
+    }, 4000);
+  }
 }
