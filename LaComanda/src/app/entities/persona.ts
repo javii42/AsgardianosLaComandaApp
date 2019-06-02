@@ -1,3 +1,7 @@
+import {Camara} from './camara';
+import{CodigoQR} from './codigo-qr';
+
+
 export class Persona {
 	private nombre:string;
 	private apellido:string;
@@ -25,6 +29,17 @@ export class Persona {
 
 	public getFoto():string{
 		return this.foto;
+	}
+
+	public tomarFoto(){
+		let camara:Camara = new Camara();
+		this.foto = camara.tomarFoto();
+	}
+
+	public obtenerDatosDniQr(){
+		let codQr:CodigoQR = new CodigoQR();
+		var datos:string = codQr.leerCodigo();
+
 	}
 
 }

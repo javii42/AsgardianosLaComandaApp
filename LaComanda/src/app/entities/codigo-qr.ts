@@ -1,12 +1,11 @@
 import { QRScanner, QRScannerStatus } from '@ionic-native/qr-scanner/ngx';
 
 export class CodigoQR {
+	private qrScanner:QRScanner;
+	private codigoEscaneado:string;
+	constructor(){}
 
-	constructor(private qrScanner: QRScanner){
-
-	}
-
-	public leerCodigo(){
+	public leerCodigo():string{
 
 		this.qrScanner.prepare()
   			.then((status: QRScannerStatus) => {
@@ -15,11 +14,11 @@ export class CodigoQR {
 
 
 			       // start scanning
-			       let scanSub = this.qrScanner.scan().subscribe((text: string) => {
-			         console.log('Scanned something', text);
-
-			         this.qrScanner.hide(); // hide camera preview
-			         scanSub.unsubscribe(); // stop scanning
+			       	let scanSub = this.qrScanner.scan().subscribe((text: string) => {
+			      	console.log('Scanned something', text);
+							this.codigoEscaneado = text;
+			        this.qrScanner.hide(); // hide camera preview
+			        scanSub.unsubscribe(); // stop scanning
 			       });
 
 			     } else if (status.denied) {
@@ -30,6 +29,7 @@ export class CodigoQR {
 			       // permission was denied, but not permanently. You can ask for permission again at a later time.
 			     }
 			  })
-			  .catch((e: any) => console.log('Error is', e));
+				.catch((e: any) => console.log('Error is', e));
+				return this.codigoEscaneado;
 			}
 }
