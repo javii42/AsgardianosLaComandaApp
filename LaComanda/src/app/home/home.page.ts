@@ -15,7 +15,7 @@ export class HomePage {
   public leerDni(){
     let p:Persona = new Persona("","","","",this.camera,this.qrScanner);
 
-    alert(p.obtenerDatosDniQr());
+    p.obtenerDatosDniQr();
   }
 
 }
